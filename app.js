@@ -392,24 +392,58 @@
 
 // Q:8
 
-function calculateHypotenuse() {
-    var base = 7
-    var perpendicular = 9;
-    function calculateSquare() {
-        var baseSquare = base * base
-        var perpendicularSquare = perpendicular * perpendicular
-        var hypotenuse = baseSquare + perpendicularSquare
-        return hypotenuse  
-    }
+// function calculateHypotenuse() {
+//     var base = 7
+//     var perpendicular = 9;
+//     function calculateSquare() {
+//         var baseSquare = base * base
+//         var perpendicularSquare = perpendicular * perpendicular
+//         var hypotenuse = baseSquare + perpendicularSquare
+//         return hypotenuse  
+//     }
+//     var result = calculateSquare();
+//     document.write(result)
+// }
+// calculateHypotenuse();
+
+// Q:9
+
+// function area(width , height){
+//     var resultOfArea = width * height;
+//     return resultOfArea
+// }
+// var finalResult = area(5,8);
+// document.write(finalResult)
+
+// Q:10
+
+// function isPalindrom(){
+//     var word = prompt("Enter your word");
+//     var check = "";
+//     for(var i = word.lenght -1; i >= 0; i--){
+//         check += word[i];
+//     }
+
+//     if(word === check) {
+//         alert(word +  " " + "is a palindrom");
+//     }
+
+//     else{
+//         alert(word + " " + "is not a palindrom")
+//     }
+
+// }
+// isPalindrom()
+
+// Q:11
+
+function titleCase(str){
+    var arr = str.split(" ");
+    var result = sr.map(
+        function(val){
+
+        });
+    return result;
+
 }
-calculateHypotenuse();
-calculateSquare();
-document.write("Hypotenuse = " + hypotenuse)
-
-
-
-
-
-
-
-
+titleCase("a quick brown fox jumps over the lazy dog")
